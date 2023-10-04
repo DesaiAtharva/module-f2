@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/Cookpal.png">
+    <title>Cookpal Recipe catalogue</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo1">
+        <img src="./assest/Cookpal 1.png">
+      </div>
+      <nav>
+        <ul class="list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Help</a></li>
+          <li>
+            <img class="profile" src="./assest/Ellipse 2.png" alt="Profile" />
+          </li>
+          
+        </ul>
+
+        
+
+      </nav>
+    </header>
+
+
+
+    <div class="box">
+      <div class="box-info">
+        <p>Trending now</p>
+        <h3>Mikes Famous Salad with cheese</h3>
+        <p>By John Mike</p>
+      </div>
+    </div>
+
+
+ 
+    <div class="search_bar">
+      <p class="search_bar-title">Search for Recipes</p>
+      <input type="text" id="searchInput" placeholder="Search by recipes..." />
+      
+    </div>
+
+
+
+    <div class="button-container">
+      <button id="showAllBtn">Show All</button>
+      <button id="showVegBtn">Show Only Veg</button>
+      <button id="showNonVegBtn">Show Only Non-Veg</button>
+    </div>
+
+
+   
+    <div class="ratings-card">
+      <div class="filters-container">
+        <h2>Filter</h2>
+        <p class="rating-p">Ratings</p>
+        <label class="label">
+          <input
+            type="radio"
+            name="ratingFilter"
+            value="above"
+            id="ratingAbove"
+          />
+          4 and Above
+        </label>
+        <label class="label">
+          <input
+            type="radio"
+            name="ratingFilter"
+            value="below"
+            id="ratingBelow"
+          />
+          Below 4
+        </label>
+      </div>
+
+
+
+      
+      <div id="recipeContainer" class="recipe-container"></div>
+    </div>
+
+
+
+    
+    <footer>
+        <div class="footer-upper_side">
+            <div class="sc-hmdomO f_left_side ">
+                <div class="sc-fHjqPf f_left_side_coolpal"><img src="./assest/Cookpal 1.png"></div>
+                <p class="sc-bXCLTC .f_left_side_text">Cook-Pal is a recipe website with a wide variety of delicious recipes, easy-to-use search function. Join our community and let's cook together!</p>
+            </div>
+            <div class="sc-dAbbOL middle-line">
+                <div class="sc-feUZmu cxiIfM">
+                    <p class="sc-fUnMCh gFbIHN">Company</p>
+                    <div class="sc-hzhJZQ bHXWGx">Home</div>
+                    <div class="sc-hzhJZQ bHXWGx">Explore</div>
+                    <div class="sc-hzhJZQ bHXWGx">Team</div>
+                    <div class="sc-hzhJZQ bHXWGx">About Us</div>
+                    <div class="sc-hzhJZQ bHXWGx">Activity</div>
+                </div>
+                <div class="sc-feUZmu cxiIfM">
+                    <p class="sc-fUnMCh gFbIHN">Resources</p>
+                    <div class="sc-hzhJZQ bHXWGx">Blog</div>
+                    <div class="sc-hzhJZQ bHXWGx">Use Cases</div>
+                    <div class="sc-hzhJZQ bHXWGx">Testimonials</div>
+                    <div class="sc-hzhJZQ bHXWGx">Insights</div>
+                </div>
+            </div>
+            <div class="sc-jsJBEP kwVdvg">
+                <div class="sc-fHjqPf logo"><img src="./assest/Cookpal 1.png"></div>
+                <p class="sc-eeDRCY text-info">Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</p>
+                <div class="sc-koXPp placeholder">
+                    <input placeholder="Your Email" class="sc-bmzYkS email">
+                    <button type="button" class="sc-iHGNWf sub">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+      <div id="social_media">
+        <a class="instaBtn smGlobalBtn" href="#"></a>
+        <a class="twitterBtn smGlobalBtn" href="#"></a>
+        <a class="linkedinBtn smGlobalBtn" href="#"></a>
+        <a class="facebookBtn smGlobalBtn" href="#"></a>
+        
+        
+      </div>
+
+      
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,582 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&family=Lora:wght@600&family=Poppins&display=swap");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 30px 50px;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 20px; 
+}
+.logo1
+{
+  align-items: center;
+}
+nav a {
+  color: #393737;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd700; 
+}
+
+.profile {
+  width: 50px;
+}
+
+
+
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+  height: 250px;
+  margin: 10px 50px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-image: url("./assest/Rectangle\ 20.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.box-info {
+  color: white;
+  margin-left: 70px;
+}
+
+.box > div > p:nth-child(1) {
+  color: #dc582a;
+}
+
+.box h3 {
+  font-size: 40px;
+  width: 446px;
+}
+.box p {
+  font-size: 24px;
+  width: 400px;
+}
+h3,
+p {
+  margin: 10px 0; 
+}
+
+
+
+
+
+
+
+
+
+
+.ratings-recipecard {
+  display: flex;
+  gap: 30px;
+}
+.recipe-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.recipe-card .image-container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%; 
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.recipe-card img {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.recipe-card h3 {
+  margin-top: 10px;
+  font-size: 23;
+}
+
+.recipe-card p {
+  margin: 5px 0;
+}
+
+.recipe-card h3 + p {
+  font-size: 10px;
+  color: gray;
+}
+
+.recipe-card h3 + p + p {
+  font-size: 20px;
+  color: orange;
+}
+
+.like-button {
+  cursor: pointer;
+}
+
+.ratings-card {
+  display: grid;
+  grid-template-columns: 25% 80%;
+}
+
+.filters-container {
+  margin: 0px 60px;
+}
+.rating-p {
+  margin-top: 30px;
+}
+
+.label {
+  display: block;
+  padding: 10px;
+}
+
+
+
+
+.search_bar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 92%; 
+  margin: 1.4% auto;
+}
+
+
+
+
+
+.search_bar-title {
+  font-size: 1.5em; 
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+
+#searchInput {
+  padding: 1em; 
+  width: 98%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 1em; 
+  text-align: left;
+}
+
+#searchInput::placeholder {
+  color: #aaa;
+  text-align: left;
+}
+
+#searchInput:focus {
+  border-color: #5c98c9;
+  outline: none;
+}
+
+
+.button-container {
+  text-align: left;
+  margin: 10px 60px;
+}
+
+#showAllBtn,
+#showNonVegBtn,
+#showVegBtn {
+  font-size: 16px;
+  padding: 30px 60px;
+  border: none;
+}
+#showAllBtn {
+  background-color: #eaaa00;
+  color: white;
+}
+
+#showVegBtn {
+  background-color: #c4d600;
+  color: white;
+}
+
+#showNonVegBtn {
+  background-color: #dc582a;
+  color: white;
+}
+
+
+.button-container button {
+  padding: 1em 2em;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: auto;
+}
+
+
+
+
+
+.foot{
+  display: flex;
+  flex-direction: column;
+  margin: auto 0px 0px;
+  width: 100%;
+}
+
+.footer-upper_side {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6em;
+  margin: 3.625em auto;
+  max-width: 81.25em;
+  width: 95%;
+  color: rgb(37, 61, 78);
+}
+
+.f_left_side {
+  max-width: 18.125em;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+.f_left_side_coolpal {
+  margin-bottom: 1em;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(80, 158, 47);
+  white-space: nowrap;
+}
+
+.f_left_side_text{
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-line {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5em;
+}
+
+.gFbIHN {
+  margin: 0px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.bHXWGx {
+  display: block;
+  margin-top: 1.5em;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+.logo {
+  margin-bottom: 1em;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(80, 158, 47);
+  white-space: nowrap;
+  justify-content: center; 
+  align-items: center;
+  
+}
+
+.text-info {
+  margin: 1.5em 0px;
+  max-width: 25em;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 143%;
+  letter-spacing: 0.02rem;
+}
+
+.placeholder {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+
+.email {
+  width: 80%;
+}
+
+.email {
+  border: 1px solid rgb(37, 61, 78);
+  border-radius: 0.25em;
+  outline: none;
+  width: 18.125em;
+  height: 2.75em;
+  padding: 0px 1em;
+  font-size: 1rem;
+  font-family: inherit;
+  letter-spacing: 0.02em;
+}
+
+.sub {
+  margin-left: 0.5em;
+  border: none;
+  border-radius: 0.25em;
+  padding: 0.9em;
+  height: 3.3em;
+  background-color: rgb(80, 158, 47);
+  font-family: inherit;
+  color: rgb(226, 226, 226);
+}
+
+
+
+
+
+
+
+#social_media {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ddd; 
+  box-shadow: 0 3px 3px #999;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 27px;
+  -moz-border-radius: 27px;
+  -webkit-border-radius: 27px;
+}
+
+
+#social_media {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px;
+  align-items: center;
+}
+
+
+/* 1.instagram  */
+.instaBtn {
+  background: #2a3342;
+}
+
+.instaBtn:before {
+  font-family: "FontAwesome";
+  content: "\f16d"; /* code for instagram obtain from "https://fontawesome.com/icons" */
+}
+/*change the dimension when mouse hover on them goes same for reamining*/
+.instaBtn:hover {
+  color: #2a3342;
+  background: #fff;
+  border-color: #2a3342;
+}
+
+
+
+/*2. twitter */
+.twitterBtn {
+  background: #2a3342;
+}
+
+.twitterBtn:before {
+  font-family: "FontAwesome";
+  content: "\f099"; /* code for twitter obtain from "https://fontawesome.com/icons" */
+}
+
+.twitterBtn:hover {
+  color: #2a3342;
+  background: #fff;
+  border-color: #2a3342;
+}
+
+
+
+/*3. linkedin */
+.linkedinBtn {
+  background: #2a3342;
+}
+
+.linkedinBtn:before {
+  font-family: "FontAwesome";
+  content: "\f0e1"; /* code for linkedin obtain from "https://fontawesome.com/icons" */
+}
+
+.linkedinBtn:hover {
+  color: #2a3342;
+  background: #fff;
+  border-color: #2a3342;
+}
+
+
+
+/*4. facebook */
+.facebookBtn {
+  background: #2a3342;
+}
+
+.facebookBtn:before {
+  font-family: "FontAwesome";
+  content: "\f09a"; /* code for facebook obtain from "https://fontawesome.com/icons" */
+}
+
+.facebookBtn:hover {
+  color: #2a3342;
+  background: #fff;
+  border-color: #2a3342; 
+}
+
+
+
+
+@media (max-width: 767px) {
+  .box {
+    width: 70%;
+  }
+
+  .box-info {
+    text-align: center;
+    width: 70%;
+  }
+
+  .box h3 {
+    font-size: 1.2em; 
+    width: 70%;
+  }
+
+  .box p {
+    font-size: 0.9em; 
+    width: 70%;
+  }
+
+
+  .recipe-container {
+    display: block;
+    width: 50%;
+  }
+
+  .button-container button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .footer div {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+  .ratings-card {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer div {
+    flex: 1 1 50%;
+    max-width: 50%;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.transition {
+  transition: all 0.3s ease;
+}
+
+.search_bar:hover {
+  transform: scale(1.05);
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+
+.button-container button:hover {
+  transform: translateY(-5px);
+}
+
+.button-container button {
+  cursor: pointer;
+}
+
+
+.recipe-card:hover .image-container {
+  transform: scale(1.05);
+  
+}
+
+
+nav a {
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+
+#showAllBtn:hover,
+#showNonVegBtn:hover,
+#showVegBtn:hover {
+  transform: scale(1.05);
+}
+
+#showAllBtn, #showNonVegBtn, #showVegBtn {
+  cursor: pointer;
+}
+
+.smGlobalBtn:hover {
+  transform: translateY(-6px);
+}
